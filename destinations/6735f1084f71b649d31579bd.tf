@@ -16,6 +16,6 @@ resource "segment_destination" "id-6735f1084f71b649d31579bd" {
     supported_regions = ["us-west-2"]
   }
   name      = "PostHog Sleeknote"
-  settings  = "{\"apiKey\":\"••••••••••hsmP\",\"postHogInstance\":\"eu.i.posthog.com\"}"
+  settings  = "{\"apiKey\":\"••••••••••hsmP\",\"postHogInstance\":\"https://eu.i.posthog.com\"}"
   source_id = "7SfAMqPGrz"
 }
